@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-
 import { Link } from "react-router-dom";
 import AppsIcon from "@mui/icons-material/Apps";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
@@ -29,7 +28,7 @@ const Home = () => {
           alt=""
         />
         <div className="input__container">
-            <Search hideButtons />
+            <Search />
         </div>
       </div>
     </div>
